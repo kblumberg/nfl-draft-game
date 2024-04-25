@@ -5,7 +5,7 @@ import { styles } from '../src/styles/styles.js'
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { getAuth } from 'firebase/auth';
 import { collection, getFirestore, onSnapshot, query, where } from 'firebase/firestore';
-import { app } from '../config/Firebase.js';
+import app from '../config/Firebase.js';
 
 // 117, 192, 87
 

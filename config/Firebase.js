@@ -29,13 +29,13 @@ if (!getApps().length) {
 }
 
 // const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+// const db = getFirestore(app);
 // const auth = initializeAuth(app, {persistence: getReactNativePersistence(AsyncStorage)})
 // const auth = getAuth(app);
 
 
 // Optionally, you can export the initialized Firebase instance for use throughout your app
-export default {app, db};
+export default app;
 // export default {app, db, auth};
 
 // import firebase from 'firebase/app';

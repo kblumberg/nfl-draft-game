@@ -5,7 +5,7 @@ import { styles } from '../src/styles/styles.js'
 import { PROSPECTS } from '../shared/prospects'
 import { getAuth } from 'firebase/auth';
 import { collection, doc, getFirestore, onSnapshot, query, setDoc, where } from 'firebase/firestore';
-import { app } from '../config/Firebase.js';
+import app from '../config/Firebase.js';
 
 function getNumberWithOrdinal(n) {
     var s = ['th','st','nd','rd'],

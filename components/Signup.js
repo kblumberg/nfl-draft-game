@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, getAuth, useAuthState, onAuthStateChang
 // import Firebase from '../config/Firebase'
 // import * as firebase from "firebase/app";
 import { styles } from '../src/styles/styles.js'
-import { app } from '../config/Firebase.js';
+import app from '../config/Firebase.js';
 import { doc, getFirestore, persistentLocalCache, setDoc } from 'firebase/firestore';
 
 

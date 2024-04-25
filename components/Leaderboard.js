@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, ScrollView, TextInput, StyleSheet, TouchableOpacity, Text, Button, Image, Dimensions, FlatList } from 'react-native'
 import { styles } from '../src/styles/styles.js'
-import { app } from '../config/Firebase.js';
+import app from '../config/Firebase.js';
 import { collection, getFirestore, onSnapshot, query, where } from 'firebase/firestore';
 
 

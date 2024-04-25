@@ -3,7 +3,7 @@ import { View, TextInput, StyleSheet, TouchableOpacity, Text, Button, Image } fr
 import { createUserWithEmailAndPassword, getAuth, useAuthState, onAuthStateChanged, signInWithEmailAndPassword, setPersistence, browserLocalPersistence, browserSessionPersistence } from 'firebase/auth';
 import Firebase from '../config/Firebase'
 import { styles } from '../src/styles/styles.js'
-import { app } from '../config/Firebase';
+import app from '../config/Firebase';
 import { persistentLocalCache } from 'firebase/firestore';
 
 class Login extends React.Component {

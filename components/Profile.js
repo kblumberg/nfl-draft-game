@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { getAuth } from 'firebase/auth';
-import { app } from '../config/Firebase.js';
+import app from '../config/Firebase.js';
 import { styles } from '../src/styles/styles.js'
 import { View, Text, TouchableOpacity } from 'react-native'
 import { collection, getFirestore, onSnapshot, query, where } from 'firebase/firestore';
